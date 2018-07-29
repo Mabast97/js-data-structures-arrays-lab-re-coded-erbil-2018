@@ -21,7 +21,9 @@ function appendDriver(item){
   return newArr = [...drivers,  item];
 }
 
-
+function prependDriver(item){
+  return newArr = [item, ...drivers];
+}
 
 
 
