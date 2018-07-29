@@ -26,7 +26,7 @@ function prependDriver(item){
 }
 
 function removeFirstDriver(){
-  return newArr = drivers.pop();
+  return newArr = drivers.slice(0,drivers.length-2);
 }
 
 
